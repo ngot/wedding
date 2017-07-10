@@ -301,7 +301,9 @@
   });
 
   function render(str, data) {
-    return str.replace(/\{\{\s*([\$_a-zA-Z]+[0-9]*)\s*\}\}/ig, (a, b) => data[b] || '');
+    return str.replace(/\{\{\s*([\$_a-zA-Z]+[0-9]*)\s*\}\}/ig, function(a, b) {
+      return data[b] || '';
+    });
   }
 
   window.onload = function() {
