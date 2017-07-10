@@ -299,7 +299,7 @@
 `;
 
   var photos = config.map(el => {
-    return render(tpl, Object.assign({}, el, { prefix }));
+    return render(tpl, Object.assign({}, el, { prefix: prefix }));
   });
 
   function render(str, data) {
