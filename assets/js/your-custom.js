@@ -296,7 +296,7 @@
     </a> \
   </li>';
 
-  var photos = config.map(el => {
+  var photos = config.map(function(el) {
     return render(tpl, Object.assign({}, el, { prefix: prefix }));
   });
 
