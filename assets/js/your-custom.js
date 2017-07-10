@@ -290,13 +290,11 @@
 
   var prefix = 'http://wileam-images.b0.upaiyun.com';
 
-  var tpl = `
-<li class="img-treatment {{category}}">
-    <a class="pop-gallery-img popup-indicator" href="{{prefix}}{{src}}!{{cut}}">
-    <img src="{{prefix}}{{src}}!{{cut}}" alt="add a description to get better accessibility" />
-    </a> 
-</li>  
-`;
+  var tpl = '<li class="img-treatment {{category}}">\
+    <a class="pop-gallery-img popup-indicator" href="{{prefix}}{{src}}!{{cut}}">\
+    <img src="{{prefix}}{{src}}!{{cut}}" alt="add a description to get better accessibility" />\
+    </a> \
+  </li>';
 
   var photos = config.map(el => {
     return render(tpl, Object.assign({}, el, { prefix: prefix }));
