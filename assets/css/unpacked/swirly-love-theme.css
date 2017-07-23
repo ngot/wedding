@@ -2134,7 +2134,8 @@ blockquote p {
     position:relative;
     display:block;
 } 
-.popup-indicator:after {
+/* don't like this indicator, simply remove it first. -- MY */
+/*.popup-indicator:after {
     position:absolute;
     content: "\e62f";
     font-family:'themify';
@@ -2148,7 +2149,7 @@ blockquote p {
     text-align:center;
     width:100%;
     font-size:40px;
-} 
+} */
 
 /* ------ 38 = form styles ------------------------------------------------------ */
 .form-control-lg {

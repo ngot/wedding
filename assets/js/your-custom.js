@@ -252,16 +252,6 @@
       category: 'travel',
     },
     { 
-      src: '/wedding/t47.JPG',
-      cut: 'small',
-      category: 'travel',
-    },
-    { 
-      src: '/wedding/t48.JPG',
-      cut: 'small',
-      category: 'travel',
-    },
-    { 
       src: '/wedding/t49.JPG',
       cut: 'small',
       category: 'travel',
